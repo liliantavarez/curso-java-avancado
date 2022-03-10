@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
-<?import javafx.scene.control.ButtonBar?>
-<?import javafx.scene.control.DialogPane?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
 <AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
-	<children>
-		<ButtonBar prefHeight="40.0" prefWidth="200.0" />
-		<DialogPane layoutX="20.0" layoutY="124.0" />
-		<Button fx:id="btTeste" layoutX="150.0" layoutY="150.0" mnemonicParsing="false" onAction="#onBtTestAction" text="NÃO CLIQUE" textAlignment="CENTER" />
-		<Label layoutX="165.0" layoutY="93.0" prefHeight="40.0" prefWidth="63.0" text="Clique aqui" />
-	</children>
+   <children>
+      <Button fx:id="btTeste" layoutX="172.0" layoutY="125.0" mnemonicParsing="false" onAction="#btTesteOnActtion" text="Button" />
+      <Label layoutX="169.0" layoutY="80.0" text="Clique Aqui" />
+   </children>
 </AnchorPane>

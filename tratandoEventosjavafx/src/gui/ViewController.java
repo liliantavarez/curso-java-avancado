@@ -3,14 +3,14 @@ package gui;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 
-
 public class ViewController {
 	
 	@FXML
 	private Button btTeste;
 	
 	@FXML
-	public void onBtTestAction() {
+	public void btTesteOnActtion() {
 		System.out.println("Click");
 	}
+
 }
