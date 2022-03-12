@@ -29,7 +29,8 @@ public class ViewController {
 
 			double soma = num1 + num2;
 			
-			if(soma%2 == 0) {
+					
+			if(soma == (int) soma) {
 				labelResultado.setText(String.format("%.0f", soma));													
 			}else {
 				labelResultado.setText(String.format("%.2f", soma));				

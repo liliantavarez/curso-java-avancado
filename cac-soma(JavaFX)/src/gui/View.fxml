@@ -8,15 +8,21 @@
 
 <AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
    <children>
-      <Label layoutX="54.0" layoutY="63.0" text="Calcule a soma" AnchorPane.bottomAnchor="225.0" AnchorPane.leftAnchor="54.0" AnchorPane.topAnchor="57.0">
-
-      </Label>
-      <TextField fx:id="txtNumero1" layoutX="54.0" layoutY="99.0" promptText="Primero numero" AnchorPane.bottomAnchor="175.0" AnchorPane.leftAnchor="54.0" AnchorPane.rightAnchor="194.0" AnchorPane.topAnchor="99.0" />
-      <TextField fx:id="txtNumero2" layoutX="54.0" layoutY="150.0" promptText="Segundo numero" AnchorPane.bottomAnchor="124.0" AnchorPane.leftAnchor="54.0" />
-      <Button fx:id="btSoma" layoutX="54.0" layoutY="200.0" mnemonicParsing="false" onAction="#onBtSomaActtion" text="Soma" AnchorPane.leftAnchor="54.0" />
-      <Label fx:id="labelResultado" alignment="CENTER" contentDisplay="CENTER" layoutX="222.0" layoutY="65.0" prefHeight="119.0" prefWidth="138.0" AnchorPane.bottomAnchor="114.0" AnchorPane.topAnchor="65.0">
+      <Label layoutX="48.0" layoutY="26.0" text="Calcule a soma" AnchorPane.bottomAnchor="266.0" AnchorPane.leftAnchor="48.0" AnchorPane.topAnchor="26.0">
          <font>
-            <Font size="64.0" />
+            <Font name="System Bold" size="22.0" />
          </font></Label>
+      <TextField fx:id="txtNumero1" layoutX="48.0" layoutY="105.0" prefHeight="26.0" prefWidth="152.0" promptText="Primero numero" AnchorPane.bottomAnchor="232.0" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="200.0" AnchorPane.topAnchor="105.0" />
+      <TextField fx:id="txtNumero2" layoutX="48.0" layoutY="145.0" promptText="Segundo numero" AnchorPane.bottomAnchor="192.0" AnchorPane.leftAnchor="48.0" />
+      <Button fx:id="btSoma" layoutX="48.0" layoutY="197.0" mnemonicParsing="false" onAction="#onBtSomaActtion" text="Soma" AnchorPane.leftAnchor="48.0" />
+      <Label fx:id="labelResultado" alignment="CENTER" contentDisplay="CENTER" layoutX="48.0" layoutY="247.0" prefHeight="35.0" prefWidth="313.0" AnchorPane.bottomAnchor="53.0" AnchorPane.topAnchor="247.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="156.0" layoutY="317.0" opacity="0.65" text="create by: @LilianTavarez">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
